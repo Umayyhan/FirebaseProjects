@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class FetchDatabase extends javax.swing.JPanel {
      
-    final FirebaseDatabase database = FirebaseDatabase.getInstance("https://kargodagitim-72b20-default-rtdb.firebaseio.com/");
+    final FirebaseDatabase database = FirebaseDatabase.getInstance("add your firebase url");
     DatabaseReference ref = database.getReference();
 
     public FetchDatabase() {

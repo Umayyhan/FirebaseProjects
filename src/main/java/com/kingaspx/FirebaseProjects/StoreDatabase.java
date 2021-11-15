@@ -11,9 +11,9 @@ import java.util.Map;
 
 public class StoreDatabase extends javax.swing.JPanel {
         
-    final FirebaseDatabase database = FirebaseDatabase.getInstance("https://kargodagitim-72b20-default-rtdb.firebaseio.com/");
-    DatabaseReference ref = database.getReference().child("clicks/node/lat");//videoda .child mý bi baksana
-    //DatabaseReference ref_lng = database.getReference().child("clicks//lng");//videoda .child mý bi baksana
+    final FirebaseDatabase database = FirebaseDatabase.getInstance("add your firebase url");
+    DatabaseReference ref = database.getReference().child("clicks/node/lat");//videoda .child mï¿½ bi baksana
+    //DatabaseReference ref_lng = database.getReference().child("clicks//lng");//videoda .child mï¿½ bi baksana
 
     public StoreDatabase() {
         initComponents();

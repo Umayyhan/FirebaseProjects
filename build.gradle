@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+
+    group = 'com.kingaspx'
+
+mainClassName = 'com.kingaspx.FirebaseProjects.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testImplementation     'junit:junit:4.13'
+    implementation 'com.google.firebase:firebase-admin:8.1.0'
+    implementation 'com.formdev:flatlaf:1.6.1'
+    
+
+
+
+}
